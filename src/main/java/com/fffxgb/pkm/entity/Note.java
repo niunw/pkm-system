@@ -41,8 +41,24 @@ public class Note {
         this.updateTime = LocalDateTime.now(); // 更新修改时间
     }
 
-
     // ... 其他Getter和Setter
+    public void setCreateTime(LocalDateTime createTime) {
+        this.createTime = createTime;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void setUpdateTime(LocalDateTime updateTime) {
+        this.updateTime = updateTime;
+    }
+
+
 
 
     public LocalDateTime getCreateTime() {
